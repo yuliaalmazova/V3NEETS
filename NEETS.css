@@ -1,0 +1,61 @@
+NEETS.css
+:root {
+    --color-primary: #3C99DC     
+    --color-secondary: #FFC300    
+    --color-background: #F4F4F4   
+    --color-text: #333333        
+    --color-white: #FFFFFF
+    --font-heading: 'Nunito', sans-serif
+    --font-body: 'Arial', sans-serif
+    --space-sm: 8px
+    --space-md: 16px
+    --space-lg: 32px
+}
+*
+*::before
+*::after {
+    box-sizing: border-box 
+    margin: 0
+    padding: 0
+}
+body {
+    background-color:var(--color-background)
+    color: var(--color-text)
+    font-family: var(--font-body)
+    line-height: 1.6
+    font-size: 16px
+}
+
+a {
+    color:var(--color-primary)
+    text-decoration: none
+    transition: color 0.3s ease
+}
+a:hover {
+    color:var(--color-secondary)
+}
+h1, h2, h3, h4 {
+    font-family:var(--font-heading);
+    color:var(--color-text);
+    margin-bottom:var(--space-md);
+}
+h1 { font-size:25em }
+h2 { font-size:2em }
+
+
+p {
+    margin-bottom: var(--space-md);
+}
+
+.container {
+    max-width: 1200px
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+}
+
+.flex-group {
+    display: flex;
+    gap: var(--space-md);
+    
+}
+font-heading: 'Nunito', sans-serif;
